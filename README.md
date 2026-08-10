@@ -239,13 +239,3 @@ The project includes **105 realistic customer reviews** with two embedded anomal
 
 ---
 
-## 📄 License
-
-This project was built as a submission for the **Think9 AI & Intelligence Challenge**.
-
----
-
-<p align="center">
-  <b>Built with ❤️ for Think9</b><br>
-  <i>Powered by Google Gemini + LangGraph</i>
-</p>
