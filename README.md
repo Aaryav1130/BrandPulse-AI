@@ -89,13 +89,12 @@ When operating **30+ consumer brands** simultaneously, customer feedback is:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/brandpulse-ai.git
+git clone https://github.com/Aaryav1130/BrandPulse-AI
 cd brandpulse-ai
 
 # 2. Create virtual environment
 python -m venv .venv
-.venv\Scripts\activate  # Windows
-# source .venv/bin/activate  # macOS/Linux
+.venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -228,24 +227,3 @@ The project includes **105 realistic customer reviews** with two embedded anomal
 
 ---
 
-## 📈 30-Day Production Roadmap
-
-| Week | Focus | Deliverables |
-|------|-------|-------------|
-| **Week 1** | Foundation | Real data connectors (Amazon API, Flipkart), CI/CD, agent evaluation suite |
-| **Week 2** | Intelligence | Cross-brand vector search, trend detection, Slack/email alerts |
-| **Week 3** | Scale | Multi-tenant onboarding for 30+ brands, load testing (10K+ reviews/day) |
-| **Week 4** | Deploy | PostgreSQL, LangSmith observability, security audit, production deployment |
-
----
-
-## 📄 License
-
-This project was built as a submission for the **Think9 AI & Intelligence Challenge**.
-
----
-
-<p align="center">
-  <b>Built with ❤️ for Think9</b><br>
-  <i>Powered by Google Gemini + LangGraph</i>
-</p>
