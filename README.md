@@ -89,13 +89,12 @@ When operating **30+ consumer brands** simultaneously, customer feedback is:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/brandpulse-ai.git
+git clone https://github.com/Aaryav1130/BrandPulse-AI
 cd brandpulse-ai
 
 # 2. Create virtual environment
 python -m venv .venv
-.venv\Scripts\activate  # Windows
-# source .venv/bin/activate  # macOS/Linux
+.venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
