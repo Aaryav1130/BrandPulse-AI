@@ -12,9 +12,7 @@
 
 ## 📑 Table of Contents
 
-- [📋 Problem Statement](#-problem-statement)
 - [🏗️ System Architecture](#️-system-architecture)
-  - [Agent Roles](#agent-roles)
 - [🚀 Quick Start](#-quick-start)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
