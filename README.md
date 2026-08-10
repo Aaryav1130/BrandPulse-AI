@@ -10,6 +10,28 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [📋 Problem Statement](#-problem-statement)
+- [🏗️ System Architecture](#️-system-architecture)
+  - [Agent Roles](#agent-roles)
+- [🚀 Quick Start](#-quick-start)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Run the Pipeline](#run-the-pipeline)
+  - [Launch the Dashboard](#launch-the-dashboard)
+- [📸 Demo](#-demo)
+- [📁 Project Structure](#-project-structure)
+- [🎯 Key Features](#-key-features)
+  - [🤖 Multi-Agent Pipeline (LangGraph)](#-multi-agent-pipeline-langgraph)
+  - [🔍 Anomaly Detection](#-anomaly-detection)
+  - [📊 Interactive Dashboard](#-interactive-dashboard)
+  - [🌐 Multi-Brand Intelligence](#-multi-brand-intelligence)
+- [📊 Sample Data & Embedded Anomalies](#-sample-data--embedded-anomalies)
+- [🛠️ Tech Stack](#️-tech-stack)
+
+---
+
 ## 📋 Problem Statement
 
 When operating **30+ consumer brands** simultaneously, customer feedback is:
