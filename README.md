@@ -227,14 +227,3 @@ The project includes **105 realistic customer reviews** with two embedded anomal
 
 ---
 
-## 📈 30-Day Production Roadmap
-
-| Week | Focus | Deliverables |
-|------|-------|-------------|
-| **Week 1** | Foundation | Real data connectors (Amazon API, Flipkart), CI/CD, agent evaluation suite |
-| **Week 2** | Intelligence | Cross-brand vector search, trend detection, Slack/email alerts |
-| **Week 3** | Scale | Multi-tenant onboarding for 30+ brands, load testing (10K+ reviews/day) |
-| **Week 4** | Deploy | PostgreSQL, LangSmith observability, security audit, production deployment |
-
----
-
