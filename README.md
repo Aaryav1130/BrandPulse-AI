@@ -60,7 +60,7 @@ When operating **30+ consumer brands** simultaneously, customer feedback is:
 │                   INTELLIGENCE & ACTION LAYER                       │
 │                                                                     │
 │   🔔 Alert Engine    📊 Dashboard    🔍 Anomaly Detection          │
-│   • Severity-based   • Real-time     • Issue spikes                │
+│   • Severity-based   • Auto-routing     • Issue spikes                │
 │   • Auto-routing     • Per-brand     • Sentiment drops             │
 │   • Slack/Email      • Interactive   • Cross-brand patterns        │
 └────────────────────────────────────────────────────────────────────┘
@@ -126,6 +126,18 @@ python main.py --brand urbanmane --limit 5 --verbose
 ```bash
 streamlit run dashboard/app.py
 ```
+
+---
+
+## 📸 Demo
+
+![Dashboard Overview 1](assets/demo1.png)
+
+![Dashboard Alerts 2](assets/demo2.png)
+
+![Dashboard Deep Dive 3](assets/demo3.png)
+
+![Dashboard Channels 4](assets/demo4.png)
 
 ---
 
@@ -224,6 +236,3 @@ The project includes **105 realistic customer reviews** with two embedded anomal
 | Config | **YAML** | Human-readable multi-brand configuration |
 | Logging | **Rich** | Beautiful console output with tracebacks |
 | Resilience | **Tenacity** | Automatic retry with exponential backoff |
-
----
-
