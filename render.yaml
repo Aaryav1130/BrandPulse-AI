@@ -1,0 +1,16 @@
+# Render.com deployment configuration
+# Deploy: Connect this GitHub repo to Render
+
+services:
+  - type: web
+    name: brandpulse-ai
+    runtime: docker
+    plan: free
+    envVars:
+      - key: LLM_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GOOGLE_API_KEY
+        sync: false
+    healthCheckPath: /_stcore/health

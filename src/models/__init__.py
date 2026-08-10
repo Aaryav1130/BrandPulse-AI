@@ -1,0 +1,1 @@
+# BrandPulse AI — Data Models

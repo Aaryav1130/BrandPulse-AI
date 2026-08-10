@@ -1,0 +1,128 @@
+# ============================================================
+# BrandPulse AI — Brand Configuration
+# ============================================================
+# Defines all brands managed by the Think9 portfolio,
+# their products, channels, and alert routing.
+# ============================================================
+
+brands:
+  glownest:
+    name: "GlowNest"
+    display_name: "GlowNest Skincare"
+    category: "skincare"
+    description: "Premium natural skincare brand for Indian skin types"
+    products:
+      - name: "Vitamin C Brightening Serum"
+        sku: "GN-SRM-001"
+        category: "serums"
+      - name: "Hyaluronic Acid Moisturizer"
+        sku: "GN-MST-002"
+        category: "moisturizers"
+      - name: "Kumkumadi Night Cream"
+        sku: "GN-CRM-003"
+        category: "creams"
+      - name: "Niacinamide Dark Spot Corrector"
+        sku: "GN-COR-004"
+        category: "treatments"
+    channels:
+      - amazon
+      - flipkart
+      - instagram
+      - app_store
+    alert_contacts:
+      slack_channel: "#glownest-alerts"
+      email: "glownest-team@think9.com"
+    keywords:
+      - skincare
+      - glow
+      - serum
+      - moisturizer
+      - vitamin c
+      - niacinamide
+
+  pureroots:
+    name: "PureRoots"
+    display_name: "PureRoots Organic Foods"
+    category: "organic_food"
+    description: "Certified organic food and wellness brand"
+    products:
+      - name: "Cold-Pressed Coconut Oil"
+        sku: "PR-OIL-001"
+        category: "oils"
+      - name: "Organic Honey (Raw & Unprocessed)"
+        sku: "PR-HON-002"
+        category: "sweeteners"
+      - name: "Quinoa & Millet Mix"
+        sku: "PR-GRN-003"
+        category: "grains"
+      - name: "Turmeric Latte Premix"
+        sku: "PR-BEV-004"
+        category: "beverages"
+    channels:
+      - amazon
+      - flipkart
+      - support_tickets
+    alert_contacts:
+      slack_channel: "#pureroots-alerts"
+      email: "pureroots-team@think9.com"
+    keywords:
+      - organic
+      - food
+      - healthy
+      - natural
+      - honey
+      - coconut oil
+
+  urbanmane:
+    name: "UrbanMane"
+    display_name: "UrbanMane Hair & Grooming"
+    category: "haircare"
+    description: "Modern grooming and haircare for urban Indians"
+    products:
+      - name: "Anti-Hairfall Shampoo"
+        sku: "UM-SHP-001"
+        category: "shampoos"
+      - name: "Argan Oil Hair Serum"
+        sku: "UM-SRM-002"
+        category: "serums"
+      - name: "Beard Growth Oil"
+        sku: "UM-BRD-003"
+        category: "beard_care"
+      - name: "Keratin Hair Mask"
+        sku: "UM-MSK-004"
+        category: "treatments"
+    channels:
+      - amazon
+      - flipkart
+      - instagram
+      - app_store
+    alert_contacts:
+      slack_channel: "#urbanmane-alerts"
+      email: "urbanmane-team@think9.com"
+    keywords:
+      - haircare
+      - grooming
+      - shampoo
+      - beard
+      - hair serum
+
+# ============================================================
+# Global Settings
+# ============================================================
+
+settings:
+  anomaly_detection:
+    sentiment_drop_threshold: 0.3
+    issue_spike_threshold: 2.0
+    min_reviews_for_trend: 5
+    lookback_days: 7
+  alert_severity:
+    critical: 5
+    high: 4
+    medium: 3
+    low: 2
+    info: 1
+  processing:
+    batch_size: 50
+    max_retries: 3
+    retry_delay_seconds: 2
