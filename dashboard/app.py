@@ -42,11 +42,21 @@ st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
     .stApp { background: #FAFBFC; }
-    .stApp, .stApp p, .stApp span, .stApp div, .stApp h1, .stApp h2, .stApp h3,
+    .stApp p, .stApp h1, .stApp h2, .stApp h3,
     .stApp h4, .stApp label, .stApp input, .stApp textarea, .stApp select,
     .stApp button, .stApp a, .stApp li, .stApp td, .stApp th,
-    .stApp [data-testid="stMetricValue"], .stApp [data-testid="stMetricLabel"] {
+    .stApp [data-testid="stMetricValue"], .stApp [data-testid="stMetricLabel"],
+    .stApp [data-testid="stMarkdownContainer"] {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    /* Preserve Streamlit's Material Icons font for UI icons */
+    .material-symbols-rounded,
+    .material-symbols-outlined,
+    .material-icons,
+    [data-testid="stExpanderToggleIcon"],
+    [class*="material-symbols"],
+    [class*="material-icons"] {
+        font-family: 'Material Symbols Rounded', 'Material Symbols Outlined', 'Material Icons' !important;
     }
 
     section[data-testid="stSidebar"] {
