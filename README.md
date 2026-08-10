@@ -21,10 +21,6 @@
 - [📸 Demo](#-demo)
 - [📁 Project Structure](#-project-structure)
 - [🎯 Key Features](#-key-features)
-  - [🤖 Multi-Agent Pipeline (LangGraph)](#-multi-agent-pipeline-langgraph)
-  - [🔍 Anomaly Detection](#-anomaly-detection)
-  - [📊 Interactive Dashboard](#-interactive-dashboard)
-  - [🌐 Multi-Brand Intelligence](#-multi-brand-intelligence)
 - [📊 Sample Data & Embedded Anomalies](#-sample-data--embedded-anomalies)
 - [🛠️ Tech Stack](#️-tech-stack)
 
